@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (4.5.1)
+  - CocoaLumberjack/Default (3.3.0)
+  - CocoaLumberjack/Swift (3.3.0):
+    - CocoaLumberjack/Default
+  - Locksmith (4.0.0)
+  - ReachabilitySwift (3)
+  - RxAlamofire/Core (4.0.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4.0)
+  - RxAlamofire/RxCocoa (4.0.0):
+    - RxAlamofire/Core
+    - RxCocoa (~> 4.0)
+  - RxCocoa (4.0.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.0.0)
+
+DEPENDENCIES:
+  - CocoaLumberjack/Swift
+  - Locksmith
+  - ReachabilitySwift (~> 3.0)
+  - RxAlamofire/RxCocoa
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  CocoaLumberjack: 3c8c74683302f9012bb168e1c4b7ae3c0b558431
+  Locksmith: e9bebbaaa4cee3c511bc358a44f843c3fe00e21f
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  RxAlamofire: 6ea579ac53bf14cb4bc7049a3866e5a769989b1d
+  RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
+  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
+
+PODFILE CHECKSUM: 4a4783752563573143ca104dd74d0a0ccc41e5c2
+
+COCOAPODS: 1.3.1
