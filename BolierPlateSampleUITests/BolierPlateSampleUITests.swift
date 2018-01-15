@@ -2,8 +2,8 @@
 //  BolierPlateSampleUITests.swift
 //  BolierPlateSampleUITests
 //
-//  Created by Sachin Nautiyal on 02/11/2017.
-//  Copyright © 2017 Sachin Nautiyal. All rights reserved.
+//  Created by Dhruv Govila on 02/11/2017.
+//  Copyright © 2017 Dhruv Govila. All rights reserved.
 //
 
 import XCTest
