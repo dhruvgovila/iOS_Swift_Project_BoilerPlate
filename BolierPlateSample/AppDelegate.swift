@@ -33,11 +33,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         DDLogDebug("Welcome to DDLog")
         
         //StoreData in keyChain here
-        do{try Locksmith.saveData(data:["hello Jayesh":"hii"], forUserAccount: AppConstant.keyChainAccount)
+        do{try Locksmith.saveData(data:["hello":"hii"], forUserAccount: AppConstant.keyChainAccount)
         }catch{DDLogDebug("error handel it")}
         
         //other way to store in keychain securely
-        let ketchain = testSmit.init(username: "jayesh", password: "3Embed")
+        let ketchain = testSmit.init(username: "abc", password: "123")
         do{try  ketchain.createInSecureStore()}catch{DDLogVerbose("opps error")}
         
         let readFromKeyChain = ketchain.readFromSecureStore()
@@ -105,7 +105,7 @@ struct testSmit: CreateableSecureStorable, GenericPasswordSecureStorable,Readabl
     let password: String
     
     // Required by GenericPasswordSecureStorable
-    let service = "jayesh"
+    let service = "abc"
     var account: String { return username }
     
     

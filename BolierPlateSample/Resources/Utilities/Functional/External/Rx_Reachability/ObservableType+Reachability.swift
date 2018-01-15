@@ -2,7 +2,7 @@
 //  ObservableType+Reachability.swift
 //  Pods
 //
-//  Created by Ivan Bruel on 22/03/2017.
+//  Created by Dhruv Govila on 22/03/2017.
 //
 //
 

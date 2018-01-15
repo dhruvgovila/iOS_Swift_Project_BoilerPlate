@@ -15,7 +15,7 @@ import RxSwift
 class ViewController: UIViewController {
     
     let viewModelClass =  ViewModel()
-    let number  = "9620324618"
+    let number  = "9876543210"
     let countryCode = "+91"
     let deviceID = UIDevice.current.identifierForVendor?.uuidString
     let disposeBag = DisposeBag()

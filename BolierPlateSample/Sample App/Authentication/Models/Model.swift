@@ -23,10 +23,4 @@ class Model: NSObject {
         self.deviceId = deviceId
         
     }
-    
-    
-    
-    
-    
-
 }

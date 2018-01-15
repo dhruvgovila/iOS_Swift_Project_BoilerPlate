@@ -10,11 +10,11 @@ import UIKit
 
 class AppConstant {
     
-    static let messagesURL         = "http://104.236.32.23:5015/"   //"http://159.203.135.99:1883/"
-    static let keyChainAccount     = "HolaAppTocken"
+    static let networkAPIURL       = ""
+    static let keyChainAccount     = "AppTocken"
     static let resposeTypeKey      = "resposeType"
-    static let uploadMultimediaURL = "http://104.236.32.23:8009/"
-    static let authorization       = "KMajNKHPqGt6kXwUbFN3dU46PjThSNTtrEnPZUefdasdfghsaderf1234567890ghfghsdfghjfghjkswdefrtgyhdfghj"
+    static let uploadMultimediaURL = ""
+    
     
     
     /*All Api Names */

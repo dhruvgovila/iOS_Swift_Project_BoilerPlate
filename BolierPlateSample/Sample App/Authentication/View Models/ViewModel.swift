@@ -25,7 +25,6 @@ class ViewModel {
         rx_Observal = rx_viewModel.asObservable()
     }
     
-    //_ callback: @escaping(([String:Any]) -> Void)
     func requestOtpApiCall(params : Model ) {
         
         Helper.showPI()
@@ -36,17 +35,12 @@ class ViewModel {
         
         
         let apiCall = RxAlmofireClass()
-        apiCall.newtworkRequestAPIcall(serviceName: AppConstant.API.loginAPI, requestType: .post, parameters: paramss,headerParams:Helper.headers, responseType: AppConstant.resposeType.requestOtp.rawValue)
-        apiCall.subject_response
-            .subscribe(onNext: {dict in
+        apiCall.newtworkRequestAPIcall(serviceName: AppConstant.API.loginAPI, requestType: .post, parameters: paramss,headerParams:[:], responseType: AppConstant.resposeType.requestOtp.rawValue)
+        apiCall.apiResponse
+            .subscribe(onNext: {response in
                 
-                guard let responseKey = dict[AppConstant.resposeTypeKey] as? String else {return}
-                if responseKey == AppConstant.resposeType.requestOtp.rawValue {
-                    apiCall.subject_response.subscribe().dispose()
-                    Helper.showAlertViewOnWindow("success", message: "Bingo")
-                    Helper.hidePI()
-                    self.rx_viewModel.value = [:]
-                    
+                if(response.status == true){
+                    print("success")
                 }
                 
             }, onError: {error in

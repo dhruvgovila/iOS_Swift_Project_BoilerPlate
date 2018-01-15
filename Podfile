@@ -9,7 +9,7 @@ pod 'RxAlamofire/RxCocoa'
 pod 'Locksmith'
 pod 'CocoaLumberjack/Swift'
 pod 'ReachabilitySwift' , '~> 3.0'
-
+pod 'AWSS3'
   # Pods for BolierPlateSample
 
   target 'BolierPlateSampleTests' do

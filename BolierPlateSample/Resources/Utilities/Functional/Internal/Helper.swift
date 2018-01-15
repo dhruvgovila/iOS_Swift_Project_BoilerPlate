@@ -10,7 +10,6 @@ import UIKit
 
 class Helper: NSObject {
     
-    static let headers = ["authorization":AppConstant.authorization] as [String: String]
     
     class func isValidEmail(emailText: String) -> Bool {
 
