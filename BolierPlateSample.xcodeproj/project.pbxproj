@@ -299,7 +299,8 @@
 		3F0142891FAB46D500612440 /* Sample App */ = {
 			isa = PBXGroup;
 			children = (
-				3F0142901FAB4FB300612440 /* Authentication */,
+				3F0142901FAB4FB300612440 /* Central Part */,
+				B2A95CC0200D0A60004C0CB0 /* MainFlow */,
 			);
 			path = "Sample App";
 			sourceTree = "<group>";
@@ -328,7 +329,7 @@
 			path = Database;
 			sourceTree = "<group>";
 		};
-		3F0142901FAB4FB300612440 /* Authentication */ = {
+		3F0142901FAB4FB300612440 /* Central Part */ = {
 			isa = PBXGroup;
 			children = (
 				3F0142951FAB501A00612440 /* Controllers */,
@@ -336,7 +337,7 @@
 				3F0142931FAB500F00612440 /* Views */,
 				3F0142921FAB500300612440 /* View Models */,
 			);
-			path = Authentication;
+			path = "Central Part";
 			sourceTree = "<group>";
 		};
 		3F0142921FAB500300612440 /* View Models */ = {
@@ -561,6 +562,133 @@
 				B2A95CBD200D030F004C0CB0 /* AmazonWrapper.swift */,
 			);
 			path = AmazonWrapper;
+			sourceTree = "<group>";
+		};
+		B2A95CC0200D0A60004C0CB0 /* MainFlow */ = {
+			isa = PBXGroup;
+			children = (
+				B2A95CC3200D0A7B004C0CB0 /* DashBoard */,
+				B2A95CC2200D0A74004C0CB0 /* Profile */,
+				B2A95CC1200D0A6E004C0CB0 /* Settings */,
+			);
+			path = MainFlow;
+			sourceTree = "<group>";
+		};
+		B2A95CC1200D0A6E004C0CB0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B2A95CCF200D0ADB004C0CB0 /* Controller */,
+				B2A95CCE200D0AD4004C0CB0 /* ViewModel */,
+				B2A95CCD200D0AD1004C0CB0 /* View */,
+				B2A95CCC200D0ACD004C0CB0 /* Model */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B2A95CC2200D0A74004C0CB0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B2A95CCB200D0AC1004C0CB0 /* Controller */,
+				B2A95CCA200D0ABC004C0CB0 /* ViewModel */,
+				B2A95CC9200D0AAD004C0CB0 /* View */,
+				B2A95CC8200D0AA8004C0CB0 /* Model */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B2A95CC3200D0A7B004C0CB0 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				B2A95CC7200D0A9A004C0CB0 /* Controller */,
+				B2A95CC6200D0A94004C0CB0 /* ViewModel */,
+				B2A95CC5200D0A8F004C0CB0 /* View */,
+				B2A95CC4200D0A88004C0CB0 /* Model */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		B2A95CC4200D0A88004C0CB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2A95CC5200D0A8F004C0CB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B2A95CC6200D0A94004C0CB0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B2A95CC7200D0A9A004C0CB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B2A95CC8200D0AA8004C0CB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2A95CC9200D0AAD004C0CB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B2A95CCA200D0ABC004C0CB0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B2A95CCB200D0AC1004C0CB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B2A95CCC200D0ACD004C0CB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2A95CCD200D0AD1004C0CB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B2A95CCE200D0AD4004C0CB0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B2A95CCF200D0ADB004C0CB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		CC331ADBACA4BD24273AE1A7 /* Pods */ = {
